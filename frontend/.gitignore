@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Parcel cache
+.parcel-cache/
+
+# Output directories (by default, Parcel uses 'dist' for the build output)
+dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (optional, add as needed)
+.vscode/
+.idea/
+*.iml
+
+# Environment variables (if any)
+.env
+
+# Other
+coverage/

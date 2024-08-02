@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.contact-container {
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+
+.contact-container .contact-page{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.contact-form {
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-page .right-panel{
+    height: auto;
+    padding: 20px;
+}
+
+.contact-page .right-panel p{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+}

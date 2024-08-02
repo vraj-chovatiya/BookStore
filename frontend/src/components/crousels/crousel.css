@@ -1,0 +1,21 @@
+.book-slide {
+    text-align: center;
+}
+
+.book-slide img {
+    width: auto;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: left;
+}
