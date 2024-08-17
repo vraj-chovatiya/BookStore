@@ -9,6 +9,7 @@ import Register from './src/components/register/Register';
 import Book from './src/components/book/Book';
 import Course from './src/components/course/Course';
 import Contact from './src/components/contact/Contact';
+import Footer from './src/components/footer/Footer';
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
 
                     <Route path="*" exact element={<Home />} />
                 </Routes>
+                <Footer />
             </Router>
         </>
     );

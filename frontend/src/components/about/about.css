@@ -7,6 +7,7 @@
     margin: 0 auto;
     margin-top: 6rem;
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .about-container h1 {
@@ -22,4 +23,7 @@
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
+}
+.about-container img{
+    margin-bottom: 1rem;
 }
